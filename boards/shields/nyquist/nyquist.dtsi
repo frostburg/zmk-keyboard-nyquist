@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "my_keyboard-layouts.dtsi"
+#include "nyquist-layouts.dtsi"
 
 &physical_layout0 {
     kscan = <&kscan0>; // Label of the kscan node this layout uses
