@@ -1,9 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "my_keyboard-layouts.dtsi"
+
+&physical_layout0 {
+    kscan = <&kscan0>; // Label of the kscan node this layout uses
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
+};
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix-transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
         zmk,backlight = &backlight;
     };
 
