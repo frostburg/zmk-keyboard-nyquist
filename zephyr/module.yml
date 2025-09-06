@@ -5,7 +5,6 @@ name: zmk-keyboard-nyquist
 build:
   # List your dependencies
   # Folder containing a "CMakeLists.txt" (. = root)
-  cmake: .
   # Kconfig filepath
   settings:
     # Folder containing a "boards" folder (. = root)
