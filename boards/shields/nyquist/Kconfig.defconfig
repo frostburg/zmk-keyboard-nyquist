@@ -3,7 +3,7 @@
 if SHIELD_NYQUIST_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Nyquist rev. 2.1"
+    default "Nyquist"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
