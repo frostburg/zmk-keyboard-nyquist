@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: MIT
+
+if SHIELD_NYQUIST_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Nyquist rev. 2.1"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_NYQUIST_LEFT || SHIELD_NYQUIST_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
