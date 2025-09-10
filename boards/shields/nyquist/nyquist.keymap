@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/backlight.h>
-#define ZMK_BEHAVIORS_KEEP_ALL
 
 / {
     keymap {
