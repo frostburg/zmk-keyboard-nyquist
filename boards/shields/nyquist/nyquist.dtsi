@@ -18,7 +18,6 @@
 / {
     chosen {
         zmk,physical-layout = &physical_layout0;
-        zmk,backlight = &backlight;
     };
 
     kscan0: kscan {
