@@ -28,3 +28,9 @@
         };
     };
 };
+
+/ {
+    chosen {
+        zmk,backlight = &backlight;
+    };
+};
